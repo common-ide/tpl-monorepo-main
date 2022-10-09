@@ -1,0 +1,41 @@
+{
+  "name": "__name__(kebabCase)",
+  "version": "__version__(noCase)",
+  "description": "__description__(noCase)",
+  "private": true,
+  "scripts": {
+    "pre-dev": "lerna bootstrap --use-workspaces",
+    "dev": "start-storybook -p __storybookPort__(noCase)",
+    "dev:no-cache": "start-storybook -p __storybookPort__(noCase) --no-manager-cache",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build": "lerna run build",
+    "coverage": "jest --coverage",
+    "test": "jest",
+    "build-storybook": "build-storybook"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "antd": "^4.21.7",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
+    "ide-component-cli": "^1.0.1",
+    "ide-lib-utils": "^1.0.0",
+    "lerna": "5.1.6",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
+    "nx": "^14.4.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reflect-metadata": "^0.1.13"
+  },
+  "dependencies": {}
+}

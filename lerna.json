@@ -1,0 +1,12 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "useNx": true,
+  "command": {
+    "version": {
+      "conventionalCommits": true
+    }
+  }
+}

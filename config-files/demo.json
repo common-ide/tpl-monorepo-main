@@ -1,0 +1,15 @@
+{
+  "name": "k-demo",
+  "className": "Demo",
+  "libName": "kDemo",
+  "debugName": "kdemo",
+  "templater": "https://github.com/common-ide/ide-tpl-component-for-monorepo.git",
+  "idPrefix": "kalert",
+  "version": "0.1.0",
+  "author": "boycgit",
+  "description": "demo",
+  "disableDemoEntry": false,
+  "prodWithProxy": false,
+  "configFileName": "tsconfig.build.json",
+  "extraLibs": []
+}

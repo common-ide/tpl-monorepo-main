@@ -1,0 +1,15 @@
+.log
+.DS_Store
+.jest-*
+dist
+node_modules
+
+.idea/
+.happypack
+*.swp
+*.dia~
+*.tsbuildinfo
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

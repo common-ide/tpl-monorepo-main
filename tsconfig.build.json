@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "composite": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "module": "ESNext",
+        "removeComments": false,
+        "moduleResolution": "node",
+        "target": "es5",
+        "jsx": "react",
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "types": [
+            "reflect-metadata",
+            "Kait"
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ],
+        "lib": [
+            "es5",
+            "es6",
+            "es2017",
+            "es2018",
+            "dom"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
