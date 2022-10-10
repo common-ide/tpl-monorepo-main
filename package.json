@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "pre-dev": "lerna bootstrap --use-workspaces",
-    "dev": "start-storybook -p __storybookPort__NoCase__",
-    "dev:no-cache": "start-storybook -p __storybookPort__NoCase__ --no-manager-cache",
+    "dev": "start-storybook -p __storybookPort__",
+    "dev:no-cache": "start-storybook -p __storybookPort__ --no-manager-cache",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna run build",
     "coverage": "jest --coverage",
