@@ -24,7 +24,7 @@
     "@storybook/react": "^6.5.12",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "antd": "^4.21.7",
+    "antd": "^4.23.5",
     "babel-loader": "^8.2.5",
     "babel-plugin-transform-typescript-metadata": "^0.3.2",
     "ette": "^1.0.3",

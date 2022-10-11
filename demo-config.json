@@ -1,0 +1,9 @@
+{
+  "name": "k3-dsl-engine",
+  "ioc": "k3-ioc",
+  "version": "0.0.1",
+  "description": "packages for k3 engine",
+  "typeName": "K3",
+  "templater": "https://github.com/common-ide/tpl-monorepo-main.git",
+  "storybookPort": 5210
+}
