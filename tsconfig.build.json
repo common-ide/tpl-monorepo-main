@@ -16,7 +16,7 @@
         "emitDecoratorMetadata": true,
         "types": [
             "reflect-metadata",
-            "Kait"
+            "__typeName__(noCase)"
         ],
         "typeRoots": [
             "./node_modules/@types",

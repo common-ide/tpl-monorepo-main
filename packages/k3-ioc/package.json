@@ -1,0 +1,38 @@
+{
+  "name": "__ioc__(noCase)",
+  "version": "0.1.0",
+  "description": "ioc container",
+  "main": "dist/index.umd.js",
+  "module": "src/index.tsx",
+  "idebug": "src/index.tsx",
+  "typings": "dist/index.d.ts",
+  "sideEffects": false,
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "ide-cli dev",
+    "install:peers": "ide-cli install --use tnpm",
+    "install:all": "tnpm install && npm run install:peers",
+    "test": "./node_modules/.bin/jest",
+    "release": "npx standard-version",
+    "build": "ide-cli build",
+    "pregh-pages": "node ./node-helper/download-code-worker.js",
+    "gh-pages": "webpack --config webpack.gh-pages.js && npx gh-pages -d public"
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  },
+  "keywords": [],
+  "author": "boycgit",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "files": [
+    "dist"
+  ]
+}
